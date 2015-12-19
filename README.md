@@ -23,6 +23,7 @@ Install ruby
 https://rubyinstall.org/download
 ~~~
 **Installing continues in git bash**
+
 Install sass
 ~~~
 gem install sass
