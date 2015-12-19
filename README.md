@@ -1,33 +1,95 @@
-# Stor
-## Middel
-###Liten
+# How to make a static Single page website with gulp and shit
+## What i need
+* Nodejs
+* Ruby
+* SASS
+* Compass
+* SUSY
+* Breakpoint
+* Gulp
+* Git
 
-* Bullet
-
+###Step 1 Installing
+Install git 
 ~~~
-What is this
+https://git-scm.com/download/win
+~~~
+Install nodejs 
+~~~
+https://nodejs.org
+~~~
+Install ruby 
+~~~
+https://rubyinstall.org/download
+~~~
+**Installing continues in git bash**
+Install sass
+~~~
+gem install sass
+~~~
+Install compass
+~~~
+gem install compass
+~~~
+Install susy
+~~~
+gem install susy
+~~~
+Install breakpoint
+~~~
+gem install breakpoint
+~~~
+Install gulp
+~~~
+ npm -g install gulp or sudo npm install -g gulp
 ~~~
 
-**Note**
+###Step 2 Make required files
+**Required files**
+* package.json
+* gulpfile.js
 
-`marked`
+**Look at examples**
+
+###Step 3 Download and install dependencies from package.json
+~~~
+npm install
+~~~
+
+###Step 4 Run gulp
+In the project root folder start gulp with the gulp command
+~~~
+gulp
+~~~
 
 
 ```
 project
 │   README.md
-│   file001.txt    
-│
-└───folder1
-    │   file011.txt
-    │   file012.txt
-    │
-    ├───subfolder1
-    │   │   file111.txt
-    │   │   file112.txt
-    │   │   ...
-    │
-    └───folder2
-    │   file021.txt
-    │   file022.txt
+│   .gitignore    
+│   gulpfile.js
+|   package.json
+|   
+└───builds
+|   ├───development
+|       ├───css
+|       ├───js
+|       ├───images
+|       │   index.html
+|
+└───components
+    ├───sass
+    |   ├───modules
+    |   |   | _example_partial1.scss
+    |   |   | _example_partial2.scss
+    |   | _example_layout.scss
+    |   | _mixins.scss
+    |   | _variables.scss
+    |   | style.scss
+    ├───scripts
+        | script.js
 ```
+
+`marked`
+
+**Note**
